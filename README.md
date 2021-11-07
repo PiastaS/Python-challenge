@@ -1,6 +1,8 @@
-PyBank
+# Python Challenges
 
-Your task is to create a Python script that analyzes the records to calculate each of the following:
+### PyBank
+
+The Python script that analyzes the records to calculate each of the following:
 
 - The total number of months included in the dataset
 
@@ -13,9 +15,9 @@ Your task is to create a Python script that analyzes the records to calculate ea
 - The greatest decrease in profits (date and amount) over the entire period.
 
 
-PyPoll
+### PyPoll
 
-Your task is to create a Python script that analyzes the votes and calculates each of the following:
+Python script that analyzes the votes and calculates each of the following:
 
 - The total number of votes cast
 
