@@ -19,6 +19,7 @@ The greatest decrease in profits (date and amount) over the entire period
 
 
 PyPoll
+
 You will be give a set of poll data called election_data.csv. The dataset is composed of three columns: Voter ID, County, and Candidate. Your task is to create a Python script that analyzes the votes and calculates each of the following:
 
 
