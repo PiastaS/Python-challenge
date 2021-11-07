@@ -36,11 +36,11 @@
 	        elif row[2] == "O'Tooley":
 	            otooley_votes +=1
 	
-	 # Make a dictionary out of the two lists we previously created 
+	# Make a dictionary out of the two lists we previously created 
 	candidates = ["Khan", "Correy", "Li","O'Tooley"]
 	votes = [khan_votes, correy_votes,li_votes,otooley_votes]
 	
-	# Zip the list of candidate(key) and the total votes(value)
+	# Zip the list of candidate(key) and total votes(value)
 	# Return the winner using a max function of the dictionary 
 	dict_candidates_and_votes = dict(zip(candidates,votes))
 	key = max(dict_candidates_and_votes, key=dict_candidates_and_votes.get)
