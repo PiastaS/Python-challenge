@@ -1,10 +1,10 @@
 	import os, csv
 	from pathlib import Path 
 	
-	# Assign file location
+	# Assign the file location
 	csv_file_path = Path("python-challenge", "PyPoll", "election_data.csv")
 	
-	# Declare variables 
+	# Declare the variables 
 	total_votes = 0 
 	khan_votes = 0
 	correy_votes = 0
@@ -40,7 +40,6 @@
 	candidates = ["Khan", "Correy", "Li","O'Tooley"]
 	votes = [khan_votes, correy_votes,li_votes,otooley_votes]
 	
-
 	# Zip the list of candidate(key) and the total votes(value)
 	# Return the winner using a max function of the dictionary 
 	dict_candidates_and_votes = dict(zip(candidates,votes))
@@ -53,7 +52,6 @@
 	li_percent = (li_votes/total_votes)* 100
 	otooley_percent = (otooley_votes/total_votes) * 100
 	
-
 	# Print the summary table
 	print(f"Election Results")
 	print(f"----------------------------")
@@ -67,14 +65,10 @@
 	print(f"Winner: {key}")
 	print(f"----------------------------")
 	
-
-	# Output files
-	# Assign output file location and with the pathlib library
+	# Output the files and assign the location and with the pathlib library
 	output_file = Path("python-challenge", "PyPoll", "Election_Results.txt")
 	
-
 	with open(output_file,"w") as file:
-	
 
 	# Write methods to print to Elections_Results 
 	    file.write(f"Election Results")
